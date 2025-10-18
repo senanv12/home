@@ -1,17 +1,69 @@
 /* Header */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+body{
+      font-family: "Space Grotesk", sans-serif;
+}
+
+html, body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+}
+.wrapper{
+    width: 100vw;
+      
+}
+
+header{
+
+    /* margin-left: 100px;
+    margin-right: 100px; */
+
+}
+.navbar{
+    width: 100vw;
+    height: 68px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 70px;
+    
+}
+
+.nav-items{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    font-size: 20px;
+    line-height: 28px;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.nav-logo{
+    height: 36px;
+    margin-left: 100px;
+}
 
 
+.nav-button{
+    border-radius: 14px;
+    border: 1px solid black;
+    padding: 20px 35px;
+    background-color: white;
+}
 
-
-
-
-
-
-
-
-
-
-
+.nav-right{
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
 
 
 
