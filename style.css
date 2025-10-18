@@ -60,6 +60,8 @@ header{
     transition: background-color 0.2s;
     transition: color 0.2s;
     transition: opacity 0.2s;
+    transition: border 0.2s;
+    width: 264px;
 }
 
 .nav-right{
@@ -71,7 +73,8 @@ header{
 
 .nav-button:hover{
     background-color: black;
-    color: white;
+    color: #b9ff66;
+    border: 1px solid #b9ff66;
 }
 
 .nav-button:active{
@@ -203,7 +206,7 @@ header{
 
 .main-left-button:hover{
     background-color: #b9ff66;
-    color: white;
+    color: black;
 }
 
 
