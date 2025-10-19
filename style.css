@@ -73,14 +73,25 @@ header{
 
 .nav-button:hover{
     background-color: black;
-    color: #b9ff66;
-    border: 1px solid #b9ff66;
+    color: white;
+    border: 4px solid #b9ff66;
+    font-weight: bold;
+    
 }
 
 .nav-button:active{
     opacity: 0.8;
 }
 
+.nav-items .lili{
+    transition:border-bottom 0.15s;
+      transition:   font-weight 0.15s;
+}
+
+.nav-items .lili:hover{
+    border-bottom: 3px solid #b9ff66;
+    font-weight: bold;
+}
 
 
 
@@ -94,17 +105,114 @@ header{
 
 
 
+.main-bottom-bar{
+    margin-top: 140px;
+    height: 48px;
+    align-self: center;
+    justify-content: center;
+    display: flex;
+    padding-right: 100px;
+    
+    
+    
+}
+
+.imgg{
+  width: 1440px;
+
+    
+}
+
+
+
+.main-bottom-bar2{
+    margin-top: 140px;
+    height: 51px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+        margin-left: 150px;
+}
+
+.Services{
+    background-color: #b9ff66;
+    display: flex;
+    color: black;
+    padding: 0px 7px;
+    margin-right: 40px;
+    width: 178px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+.main-bottom-text{
+    width: 580px;
+    height: 46px;
+    font-size: large;
+}
 
 
 
 
 
+.main-main{
+    margin-top: 80px;
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 1010px;
+    width: 100%;
+    gap: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom:140px
+}
 
+.main-block{
+    width: 600;
+    height: 310;
+    border-radius: 45px;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    transition: box-shadow 0.15s;
+    
 
+}
 
+.main-block:hover{
+    box-shadow: 0 12px 15px -6px rgba(0,0,0,0.7);
+}
 
+.one{
+    background-color: #f3f3f3;
+}
 
+.two{
+    background-color: #B9FF66;
+}
 
+.three{
+    background-color: black;
+}
+
+.four{
+    background-color: #f3f3f3;
+}
+
+.five{
+    background-color: #B9FF66;
+}
+
+.six{
+    background-color: black;
+}
 
 
 
@@ -151,7 +259,8 @@ header{
     align-items: center;
     padding-left: 100px;
     padding-right: 100px;
-    margin-top:70px
+    margin-top:70px;
+ 
 }
 
 .main-right{
@@ -170,19 +279,41 @@ header{
   
     height: 481px;
     margin-top: 0px;
+    position: relative;
 }
 
-
-.main-left-button{
-    background-color: black;
+.main-left-button-back{
+    background-color: #b9ff66;
     color: white;
     border-radius: 14px;
+    border-style: none;
     padding: 20px 25px;
     margin-top: 35px;
     transition: background-color 0.2s;
     transition: color 0.2s;
     transition: opacity 0.2s;
+
+
 }
+
+.main-left-button{
+
+    background-color: black;
+    color: white;
+    border-radius: 14px;
+    border-style: none;
+    padding: 20px 25px;
+    margin-top: 35px;
+    transition: background-color 0.2s;
+    transition: color 0.2s;
+    transition: opacity 0.2s;
+    position: absolute;
+    left: 0px;
+    bottom: -1px;
+}
+
+
+
 
 .main-left-text{
     line-height: 28px;
@@ -202,16 +333,15 @@ header{
 
 
 
-
-
 .main-left-button:hover{
-    background-color: #b9ff66;
-    color: black;
-}
+    text-align: center;
+    background-color: #1d2710;
+    
 
+}
 
 .main-left-button:active{
-    opacity: 0.8;
+    bottom: -7px;
 }
 
 
@@ -233,7 +363,45 @@ header{
 
 
 
+.footer{
+    margin-top: 140px;
+    width: 1241px;
+    height: 514px;
+    background-color: #292A32;
+    margin-bottom: 0px;
+    border-top-left-radius: 45px;
+    border-top-right-radius: 45px;
+    margin: auto;
+    display: flex;
+    padding-top: 55px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    transition: box-shadow 0.15s;
+}
 
+
+.footer-header{
+    margin: 0 auto;
+}
+
+
+.footer-main{
+    margin: 0 auto;
+    width: 1120px;
+   
+}
+
+.footer-main{
+    margin: 0 auto;
+    width: 1120px;
+   
+}
+
+
+.footer:hover{
+    box-shadow: 0 0px 15px 3px rgba(0,0,0,0.7);
+}
 
 
 
